@@ -1,16 +1,19 @@
-# firststep
+# Brief - A la découverte de Flutter
 
-A new Flutter project.
+Création d'un premier projet Flutter.
 
-## Getting Started
+## Ce que j'ai compris
 
-This project is a starting point for a Flutter application.
+- On peut avec un même langage créer des applications pour différents OS. Ici nous avons pu créer un exe (windows) et une apk (android)
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter fonctionne avec un système de Widget à l'intérieur des classes
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Tout le code rédigé réside dans le fichier main.dart
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- On peut modifier le visuel de l'application grâce à l'objet ThemeData
+
+- On définit au début du projet un theme, ici nous avons choisi Material design
+
+- Je n'ai pas encore totalement saisi les subtilités du stateless et du statefull. J'ai l'impression que l'état se fait injecter dans la classe sans état (stateless). Il faut que je continue de creuser.
+
+
